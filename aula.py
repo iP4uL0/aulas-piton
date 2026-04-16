@@ -1,4 +1,3 @@
-
 #Exercicio 1
 #PrecoOriginal = float(input("qual o valor original do produto?: "))
 #Desconto = PrecoOriginal * 0.15
@@ -19,10 +18,11 @@
 
 #Exercicio 4
 
-Quadrado = float(input("tamanho do safado: "))
+# Quadrado = float(input("tamanho do safado: "))
 
-Area = Quadrado*Quadrado
+# Area = Quadrado*Quadrado
 
-perimetro = 4 * Quadrado
+# perimetro = 4 * Quadrado 
 
-print("A área do quadrado é:", Area,"e o perimetro é",perimetro)
+# print("A área do quadrado é:", Area,"e o perimetro é",perimetro)
+
