@@ -22,10 +22,35 @@
 # print(media)
 
 # exercicio 3
-numeros = 0
-menor = 0
-maior = 0
-while numeros != 0:
-    numero = int(input("digite os numeros: "))
-    if(maior > numeros):
-        print 
+# numero = int(input("digite os numeros: "))
+# menor = numero
+# maior = numero
+# while numero != 0:
+#     numero = int(input("digite os numeros: "))
+#     if (numero != 0):
+#         if(numero > maior):
+#             maior = numero
+#         if(numero < menor):
+#           menor = numero
+        
+# print(maior, "e", menor)
+
+# Exercicio 4
+resposta = None
+numero = int(input("digite o numero: ")) 
+while resposta != "nao":
+    for i in range (1,11):
+     tabuada = int(numero * i)
+     print(numero,"x", i, "=", tabuada )
+    resposta = input("quer outro numero?:")
+    if(resposta == "sim"):
+        numero = int(input("digite o numero: ")) 
+   
+
+# Exercicio 5
+
+
+
+
+     
+     
